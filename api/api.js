@@ -10,7 +10,6 @@ export async function requestData(url) {
     console.error(error);
   }
 }
-
 export async function main() {
   try {
     const url =

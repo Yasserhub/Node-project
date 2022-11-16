@@ -26,6 +26,7 @@ router.get('/:name', (req, res) => {
     res.status(400).json({ msg: `No member with the id of ${req.params.name}` });
   }
 });
+
 const app = express();
 const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, 'public')));
